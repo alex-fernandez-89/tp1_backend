@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.form-login{
+    width: 400px;
+    height: 400px;
+    margin-top: 3%;
+    padding: 4%;
+    box-shadow: 7px 20px 50px rgba(29, 29, 51, 0.603);
+    border-top: #2C5364 solid 3px;
+    border-bottom: #2C5364 solid 3px;
+    border-radius: 30px;
+    
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-size: 1.52em;
+    margin-bottom: 10px ;
+    font-style:unset;
+}
+
+.controls{
+    width: 100%;
+    margin-bottom: 10px ;
+    padding: 11px 10px;
+    background:  #0f202762;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.button{
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    background-color: #0F2027;
+    color: white;
+    font-weight: bold;
+    border: double 2px #ffffff;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: #0F2027;
+    border: double 4px #0F2027;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
