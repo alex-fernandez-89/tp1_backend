@@ -6,19 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS del bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Document</title>
+  <link rel="stylesheet" href="./estilos/style.css">
+
+  <title>Lambda λ - Indumentaria</title>
 
 </head>
 <body>
-  <h1>Tienda de ropa</h1>
-    <button type="submit"><a href="index.html">Inicio</a></button>
-    <button type="submit"><a href="nike.php">Nike</a></button>
-    <button type="submit"><a href="buzo.php">Buzo</a></button>
-    <button type="submit"><a href="precio.php">Precio mayor a $500</a></button>
-  <h2>Lista de ropa</h2>
-  <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
-
+<h1>Lambda λ</h1>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="index.html">Inicio</a>
+                <a href="listarencards.php">Lista ropa</a>
+                <a href="nike.php">Nike</a>
+                <a href="buzo.php">Buzo</a>
+                <a href="precio.php">Precio mayor a $500</a>
+            </div>
+            <div class="admin">
+                <a href="login.html">Administrador</a>
+            </div>
+          </div>
+        </div>
+      </nav>
   <section>
+
+  <h4>Todos los productos</h4>
+
     <div class="container">
       <div class="row">
 
